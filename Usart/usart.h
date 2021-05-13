@@ -1,8 +1,8 @@
 /**
  * @file	usart.h
  * @brief	Funkcije za upravljanje serijskim portom
- * @author	Milan Lukic
- * @date	14-04-2019
+ * @author	Aleksandra
+ * @date	13-05-2021
  */
 
 #ifndef USART_H_
