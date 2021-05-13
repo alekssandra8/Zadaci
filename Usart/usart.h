@@ -56,4 +56,19 @@ int8_t usartGetChar();
  */
 uint8_t usartGetString(int8_t *s);
 
+/**
+ * Funkcija slicna funkciji usartGetChar(), koja ocitava nadolezeci niz karaktera, nakon
+ * cega ocitani karakter vraca nazad, za razliku od usartGetChar(), koja ne vraca,
+ * nego prazni bafer
+ * @return broj ocitanih karaktera
+ */
+int8_t usartPeek();
+
+/**
+ * Funkcija usartParseInt() ocitava nadolazeci niz brojeva i
+ * ukoliko je broj manji od 0, ucitava i predznak minus
+ * @return broj ocitanih karaktera
+ */
+int16_t usartParseInt();
+
 #endif /* USART_H_ */
