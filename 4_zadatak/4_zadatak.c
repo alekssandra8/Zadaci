@@ -21,6 +21,7 @@ void ConvertToHex(int8_t *s, uint16_t num)
 
 	for(uint8_t i = 0; i < index/2; i++)
 	{
+		// rotiranje niza
 		s[i] ^= s[index - 1 - i];
 		s[index - 1 - i] ^= s[i];
 		s[i] ^= s[index - 1 - i];
